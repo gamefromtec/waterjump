@@ -11,143 +11,145 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/coolstyle.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
-
+    <link href="css/projects.css" rel="stylesheet">
 </head>
 
 <body>
 
-        <ul class="nav nav-pills  gap-2 p-1 small shadow-sm" id="pillNav2" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab1" data-bs-toggle="tab" type="button" role="tab"><a href="index.html" class="nav-link active">Profil</a></button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="calendar-tab2" data-bs-toggle="tab" type="button" role="tab"><a href="projects.htm" class="nav-link">Projekter</a></button>
-            </li>
-            <li class="ms-auto" role="presentation">
-                <button class="nav-link" id="me-auto" data-bs-toggle="tab" type="button" role="tab"><a href="#" class="nav-link">About</a></button>
-            </li>
-        </ul>
+    <ul class="nav nav-pills  gap-2 p-1 small shadow-sm" id="pillNav2" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab1" data-bs-toggle="tab" type="button" role="tab"><a href="index.html" class="nav-link active">Profil</a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="projects-tab2" data-bs-toggle="tab" type="button" role="tab"><a href="projects.htm" class="nav-link">Projekter</a></button>
+        </li>
+        <li class="ms-auto" role="presentation">
+            <button class="nav-link" id="me-auto" data-bs-toggle="tab" type="button" role="tab"><a href="#" class="nav-link">About</a></button>
+        </li>
+    </ul>
 
-<div class="mycontainer">
+    <div class="container" id="calendarContainer">
     <div class="row">
 
-                <!-- first column with picture -->
-        <div class="column-left" style="margin-top: 30px;"><img src="images/kim.jpg" class="profilepic">
+        <!-- first column with picture -->
+        <div class="column-left" style="margin-top: 30px;">
+            <img src="images/kim.jpg" class="profilepic">
         </div>
 
         <div class="column-right" style="margin-top: 30px;">
 
-        <h2>Mit navn er Kim Massesson</h2>
-            
+            <h2>Mit navn er Kim Massesson</h2>
+
             <h4>Denne side viser min profil under uddannelse som datatekniker med programmering som speciale.</h4>
-<h2>&nbsp;</h2>
+            <h2>&nbsp;</h2>
             <h5>Jeg har hovedsageligt arbejdet i C# som programmeringssprog, men har også anvendt andre:</h5>
             <table class="styled-table">
-              <tr>
-                <td>C#</td>
-                <td>MS SQL</td>
-                <td>HTML5</td>
-                <td>Bootstrap</td>
-                <td>CSS</td>
-                <td>JavaScript</td>
-              </tr>
                 <tr>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="width:60px"></td>
-              </tr>
+                    <td>C#</td>
+                    <td>MS SQL</td>
+                    <td>HTML5</td>
+                    <td>Bootstrap</td>
+                    <td>CSS</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="width:60px"></td>
+                </tr>
             </table>
 
             <h5>DevOps værkstøjer, som jeg har berørt og anvendt:</h5>
             <table class="styled-table">
-              <tr>
-                <td>Azure</td>
-                <td>Git</td>
-                <td>Docker</td>
-              </tr>
                 <tr>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg"  style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" style="width:60px"></td>
-              </tr>
-              </table>
-            
+                    <td>Azure</td>
+                    <td>Git</td>
+                    <td>Docker</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" style="width:60px"></td>
+                </tr>
+            </table>
+
             <h5>Jeg har importeret data fra API og importeret/exporteret i txt, excel og disse:</h5>
             <table class="styled-table">
-              <tr>
-                <td>MS SQL</td>
-                <td>JSON</td>
-                <td>XML</td>
-              </tr>
                 <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="width:60px"></td>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" style="width:60px"></td>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" style="width:60px"></td>
-              </tr>
-              </table>
-              
+                    <td>MS SQL</td>
+                    <td>JSON</td>
+                    <td>XML</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" style="width:60px"></td>
+                </tr>
+            </table>
+
             <h5>Frameworks og herunder softwarearkitektur som MVC og MVVM</h5>
             <table class="styled-table">
-              <tr>
-                <td>.NET</td>
-                <td>Blazor</td>
-              </tr>
                 <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain-wordmark.svg" style="width:60px"></td>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg" style="width:60px"></td>
-              </tr>
-              </table>
+                    <td>.NET</td>
+                    <td>Blazor</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain-wordmark.svg" style="width:60px"></td>
+                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg" style="width:60px"></td>
+                </tr>
+            </table>
 
-            
+
             <h2>🖇️PROFIL</h2>
-         
+
             <p>
-                Jeg har meget passion, når det handler 
-                om IT og har altid været nysgerrig på de 
-                muligheder, der ligger indenfor IT og data. 
-                Der er noget magisk ved at strukturere og 
-                automatisere processer, skabe løsninger. 
-                Jeg er nysgerrig, løsningsorienteret og udforsker gerne nye 
-                områder. Samtidig med at være 
-                pligtopfyldende, kan jeg tænke 
-                anderledes. Jeg er visuel og kreativ, men er 
-                også et logisk tænkende individ, der holder 
-                af tal, struktur og planlægning. 
-                Jeg har arbejdet en del indenfor det 
-                pædagogiske felt, og har stærke sociale 
-                og relationsskabende kompetencer. 
+                Jeg har meget passion, når det handler
+                om IT og har altid været nysgerrig på de
+                muligheder, der ligger indenfor IT og data.
+                Der er noget magisk ved at strukturere og
+                automatisere processer, skabe løsninger.
+                Jeg er nysgerrig, løsningsorienteret og udforsker gerne nye
+                områder. Samtidig med at være
+                pligtopfyldende, kan jeg tænke
+                anderledes. Jeg er visuel og kreativ, men er
+                også et logisk tænkende individ, der holder
+                af tal, struktur og planlægning.
+                Jeg har arbejdet en del indenfor det
+                pædagogiske felt, og har stærke sociale
+                og relationsskabende kompetencer.
             </p>
-                
-                <h4>😄 STYRKER</h4>
-                <ul>
+
+            <h4>😄 STYRKER</h4>
+            <ul>
                 <li>Samarbejde og skabe relationer </li>
                 <li>Proaktiv og nysgerrig </li>
                 <li>Data og talforståelse </li>
                 <li>Formidling </li>
                 <li>Stærk logisk sans</li>
                 <li>Analytisk </li>
-                </ul>
-                
-                <h4>🏡SPROG</h4>
-                <ul>
-                  <li>Dansk </li>
-                  <li>Engelsk </li>
-                </ul>
-                <span>- samt nogen forståelse for svensk, tysk, fransk og japansk</span>
-                <br><br>
-                
-                <h4>🎨HOBBYER</h4>
-                <p>Når jeg ikke sidder foran skærmen med en programmeringsopgave, slapper jeg af med skak, kunst, gåture, akvarier, god musik, en god bog, puslespil, min familie. 
+            </ul>
+
+            <h4>🏡SPROG</h4>
+            <ul>
+                <li>Dansk </li>
+                <li>Engelsk </li>
+            </ul>
+            <span>- samt nogen forståelse for svensk, tysk, fransk og japansk</span>
+            <br><br>
+
+            <h4>🎨HOBBYER</h4>
+            <p>
+                Når jeg ikke sidder foran skærmen med en programmeringsopgave, slapper jeg af med skak, kunst, gåture, akvarier, god musik, en god bog, puslespil, min familie.
                 Senest har jeg installeret en Linux-server, hvor jeg har lagt Docker, MS SQL, portainer og en webpage på.
             </p>
-                <a href="https://www.linkedin.com/in/kim-m-9b9416159/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="width:60px"></a>                   
-           
+            <a href="https://www.linkedin.com/in/kim-m-9b9416159/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="width:60px"></a>
+
+        </div>
+
     </div>
-   
-</div>
     <div class="footer">
         Gnist ◦ Oplevelser og samarbejde ◦ <a href="mailto:">Email</a> ◦ <a href="tel:+45 xxxxxx">+45 xxxxxx</a>
     </div>

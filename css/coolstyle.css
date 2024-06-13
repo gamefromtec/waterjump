@@ -57,10 +57,11 @@ border: 1px solid cornflowerblue;
   margin-left: 2%;
 }
 .column-right {
-  flex: 0 0 75%;
-  max-width: 75%;
-  background-color: #fff;
-  }
+    flex: 0 0 75%;
+    max-width: 75%;
+    background-color: #fff;
+    margin-left: 2%;
+}
 
 .profilepic{
   width: 250px; 
