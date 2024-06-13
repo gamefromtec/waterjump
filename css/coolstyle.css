@@ -48,6 +48,7 @@ border: 1px solid cornflowerblue;
 .column {
   padding: 20px;
   box-sizing: border-box;
+  margin-left: 2%;
 }
 .column-left {
   flex: 0 0 265px;
@@ -60,10 +61,9 @@ border: 1px solid cornflowerblue;
     flex: 0 0 75%;
     max-width: 75%;
     background-color: #fff;
-    margin-left: 2%;
 }
 
-.profilepic{
+ .profilepic{
   width: 250px; 
   border-radius: 250px;
 }
@@ -79,4 +79,4 @@ border: 1px solid cornflowerblue;
   width: 250px; 
   border-radius: 250px;
   }
-}
+} 
