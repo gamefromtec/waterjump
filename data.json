@@ -24,6 +24,6 @@
     "TitleFont": "Impact",
     "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
     "Place": "https://github.com/Kima4Tec/ApprenticeWeb",
-    "Date": "Juni 2024"
+    "Date": "Maj 2024"
   }
 ]
