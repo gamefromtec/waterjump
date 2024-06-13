@@ -1,0 +1,48 @@
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: Arial, Helvetica;
+    font-size: 16px
+}
+
+.place-text {
+    font-family: Arial, Helvetica;
+    font-size: 14px
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #9639ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-md-2,
+.col-md-8 {
+    flex: 1;
+    padding: 10px;
+}
+
+.col-md-2 {
+    max-width: 200px; /* Adjust the width of the image column as needed */
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column; /* Display columns vertically on smaller screens */
+    }
+
+    .col-md-2,
+    .col-md-8 {
+        flex: none; /* Override flex to ensure each column takes full width on smaller screens */
+        max-width: 100%; /* Ensure columns take full width on smaller screens */
+    }
+}

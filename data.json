@@ -1,0 +1,20 @@
+[
+  {
+    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+    "Text": "Vand quiz",
+    "TextColor": "blue",
+    "TitleFont": "Courier",
+    "Explanation": "Opgaven lød på at lave et konsolprogram, som henter en json fil ind med forskellige spørgsmål. Programmet er lavet i Visual Studio og anvender C#. Herefter skulle jeg oprette to nye JSON-fil med samme formatering, som kunne indlæses i samme program. En med SQL-spørgsmål og en med C#-spørgsmål",
+    "Place": "https://github.com/Kima4Tec/SimpleGetJsonWithQuestions",
+    "Date": "Maj"
+  },
+  {
+    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
+    "Text": "Hent API",
+    "TextColor": "lime",
+    "TitleFont": "Verdana",
+    "Explanation": "I dette projekt henter jeg spørgsmål ind via et API fra 'https://quizapi.io/api/v1/questions' i form af en Json-fil. Samtidig konverterer jeg en lokal Json-fil til at passe til strukturen af APIens struktur.",
+    "Place": "https://github.com/Kima4Tec/TestApiQuiz",
+    "Date": "Maj"
+  }
+]
