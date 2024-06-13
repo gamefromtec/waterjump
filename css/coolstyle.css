@@ -79,4 +79,9 @@ border: 1px solid cornflowerblue;
   width: 250px; 
   border-radius: 250px;
   }
-} 
+}
+.styled-div {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
