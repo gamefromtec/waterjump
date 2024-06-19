@@ -25,5 +25,14 @@
     "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
     "Place": "https://github.com/Kima4Tec/ApprenticeWeb",
     "Date": "Maj 2024"
-  }
+  },
+    {
+    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
+    "Text": "Whiskyklubben Albert",
+    "TextColor": "orange",
+    "TitleFont": "Verdana",
+    "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Der er søgemuligheder og man kan uploade billeder til siden. Billederne gemmes i databasen.",
+    "Place": "https://github.com/Kima4Tec/Albert",
+    "Date": "Juni 2024"
+  },
 ]
