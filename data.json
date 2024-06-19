@@ -19,7 +19,7 @@
   },
   {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
-    "Text": "Hent API",
+    "Text": "Lærlingeforløb",
     "TextColor": "red",
     "TitleFont": "Impact",
     "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
