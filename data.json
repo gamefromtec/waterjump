@@ -34,5 +34,5 @@
     "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Der er søgemuligheder og man kan uploade billeder til siden. Billederne gemmes i databasen.",
     "Place": "https://github.com/Kima4Tec/Albert",
     "Date": "Juni 2024"
-  },
+  }
 ]
