@@ -28,7 +28,7 @@
   },
   {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
-    "Text": "Vand quiz",
+    "Text": "Vandquiz",
     "TextColor": "blue",
     "TitleFont": "Courier",
     "Explanation": "Opgaven lød på at lave et konsolprogram, som henter en json fil ind med forskellige spørgsmål. Programmet er lavet i Visual Studio og anvender C#. Herefter skulle jeg oprette to nye JSON-fil med samme formatering, som kunne indlæses i samme program. En med SQL-spørgsmål og en med C#-spørgsmål",
