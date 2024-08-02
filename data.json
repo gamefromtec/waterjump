@@ -4,7 +4,7 @@
     "Text": "Lærlingeforløb",
     "TextColor": "red",
     "TitleFont": "Impact",
-    "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
+    "Explanation": "Et projekt, hvor man som lærling kan registrere sine projekter, så instruktøren kan følge med i forløbene. Man kan indtaste og se data for sin egen profil. Instruktør kan redigere i alt. Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
     "Place": "https://github.com/Kima4Tec/ApprenticeWeb",
     "Date": "Maj 2024"
   },
