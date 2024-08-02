@@ -3,10 +3,10 @@
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
     "Text": "Gnist hjemmeside",
     "TextColor": "purple",
-    "TitleFont": "Impact",
-    "Explanation": "Et projekt, hvor man som lærling kan registrere sine projekter, så instruktøren kan følge med i lærlingenes forløb. Man kan indtaste og se data for sin egen profil. Instruktør kan redigere i alt. Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
-    "Place": "https://github.com/Kima4Tec/ApprenticeWeb",
-    "Date": "Maj 2024"
+    "TitleFont": "Consolas",
+    "Explanation": "En hjemmeside for Gnist, der er et projekt under ATOPOS. Atopos har særligt fokus på forbindelser mellem kunst & viden samt kultur & erhvervsliv.",
+    "Place": "https://gnisterne.com/",
+    "Date": "Juni 2024"
   },
   {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
