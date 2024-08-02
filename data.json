@@ -6,7 +6,7 @@
     "TitleFont": "Verdana",
     "Explanation": "En hjemmeside lavet i Blazor. På siden kan man indskrive referater og tilføje billeder af smagt whisky fra klubbens møder. Jeg har anvendt Blazor, C#, HTML, CSS, SQL. Siden er lagt på en VPS Linux server på Contabo med Apache. MS SQL er lagt på Docker.",
     "Place": "http://whiskyklubbenalbert.dk/",
-    "Date": "Juni/juli 2024"
+    "Date": "Juni 2024"
   },
   {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
