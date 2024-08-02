@@ -4,7 +4,7 @@
     "Text": "Hjemmeside for Whiskyklubben Albert",
     "TextColor": "orange",
     "TitleFont": "Verdana",
-    "Explanation": "En hjemmeside lavet i Blazor. På siden kan man indskrive referater og tilføje billeder af smagt whisky fra klubbens møder. Siden er lagt på en VPS Linux server på Contabo med Apache. MS SQL er lagt på Docker.",
+    "Explanation": "En hjemmeside lavet i Blazor. På siden kan man indskrive referater og tilføje billeder af smagt whisky fra klubbens møder. Jeg har anvendt Blazor, C#, HTML, CSS, SQL. Siden er lagt på en VPS Linux server på Contabo med Apache. MS SQL er lagt på Docker.",
     "Place": "http://whiskyklubbenalbert.dk/",
     "Date": "Juni/juli 2024"
   },
