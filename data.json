@@ -1,7 +1,7 @@
 [
   {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
-    "Text": "Gnist hjemmeside",
+    "Text": "Hjemmeside for Gnist",
     "TextColor": "purple",
     "TitleFont": "Consolas",
     "Explanation": "En hjemmeside for Gnist, der er et projekt under ATOPOS. Atopos har særligt fokus på forbindelser mellem kunst & viden samt kultur & erhvervsliv. Siden er lavet i Visual Studio og anvender primært HTML og CSS.",
