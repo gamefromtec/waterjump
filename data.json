@@ -1,4 +1,13 @@
 [
+    {
+    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
+    "Text": "Lærlingeforløb",
+    "TextColor": "red",
+    "TitleFont": "Impact",
+    "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
+    "Place": "https://github.com/Kima4Tec/ApprenticeWeb",
+    "Date": "Maj 2024"
+  },
   {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
     "Text": "Vand quiz",
@@ -15,15 +24,6 @@
     "TitleFont": "Verdana",
     "Explanation": "I dette projekt henter jeg spørgsmål ind via et API fra 'https://quizapi.io/api/v1/questions' i form af en Json-fil. Samtidig konverterer jeg en lokal Json-fil til at passe til strukturen af APIens struktur.",
     "Place": "https://github.com/Kima4Tec/TestApiQuiz",
-    "Date": "Maj 2024"
-  },
-  {
-    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
-    "Text": "Lærlingeforløb",
-    "TextColor": "red",
-    "TitleFont": "Impact",
-    "Explanation": "Projektet er opbygget i Blazor med forbindelse til database med entity framework, krypteret password og secret connectionstring. Når man logger ind som admin får man flere rettigheder på siden, og ellers kan man kun oprette og slette sig selv som bruger.",
-    "Place": "https://github.com/Kima4Tec/ApprenticeWeb",
     "Date": "Maj 2024"
   }
 ]
