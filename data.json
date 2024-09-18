@@ -1,4 +1,13 @@
 [
+        {
+    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
+    "Text": "Dating App",
+    "TextColor": "red",
+    "TitleFont": "Verdana",
+    "Explanation": "En side i Blazor med database, hvor man skal oprette bruge (brugt Authenticator), logge ind, oprette profil, filtrere andres profiler og finde et match. Like hinanden og skrive beskeder til sine matches.",
+    "Place": "https://github.com/Kima4Tec/YWP",
+    "Date": "September 2024"
+  },
     {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
     "Text": "Hjemmeside for Whiskyklubben Albert",
