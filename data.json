@@ -1,4 +1,13 @@
 [
+                {
+    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    "Text": "Dating App",
+    "TextColor": "darkslategray",
+    "TitleFont": "Verdana",
+    "Explanation": "En side i HTML og Javascript, hvor man kan bestille burgere, drikkevarer, tilbehør og desserter. Man kan klikke på antal, annullere ordre og sidst udskrives ordre, inden man betaler.",
+    "Place": "https://github.com/Kima4Tec/BurgerBar",
+    "Date": "September 2024"
+  },
         {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
     "Text": "Dating App",
