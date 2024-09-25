@@ -1,7 +1,34 @@
 [
+  {
+    "Picture": "images/randomColor.png",
+    "Text": "Random Color",
+    "TextColor": "teal",
+    "TitleFont": "Verdana",
+    "Explanation": "En side, hvor man kan ændre baggrundsfarve ved tryk på knapper. En af knapperne giver en tilfældig farve.",
+    "Place": "https://github.com/Kima4Tec/RandomColor",
+    "Date": "September 2024"
+  },
+  {
+    "Picture": "images/burgerFlex.png",
+    "Text": "Javascript Burger App med FlexBox",
+    "TextColor": "purple",
+    "TitleFont": "Verdana",
+    "Explanation": "En side i HTML og Javascript, som jeg lavede for at blive bedre til flexbox, og måske kan andre også få noget ud af det. Man kan klikke på antal, annullere ordre og sidst udskrives ordre, inden man betaler.",
+    "Place": "https://github.com/Kima4Tec/NyBurgerFlex",
+    "Date": "September 2024"
+  },
+  {
+    "Picture": "images/burgerBoot.png",
+    "Text": "Learning Javascript Burger App",
+    "TextColor": "blue",
+    "TitleFont": "Verdana",
+    "Explanation": "En side i HTML og Javascript, som jeg lavede i 6 trin for læringens skyld, og måske kan andre også få noget ud af det. Man kan klikke på antal, annullere ordre og sidst udskrives ordre, inden man betaler. Anvendte Bootstrap til opsætning",
+    "Place": "https://github.com/Kima4Tec/LearningBurger",
+    "Date": "September 2024"
+  },
                 {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-    "Text": "Dating App",
+    "Text": "BurgerApp",
     "TextColor": "darkslategray",
     "TitleFont": "Verdana",
     "Explanation": "En side i HTML og Javascript, hvor man kan bestille burgere, drikkevarer, tilbehør og desserter. Man kan klikke på antal, annullere ordre og sidst udskrives ordre, inden man betaler.",
@@ -9,11 +36,11 @@
     "Date": "September 2024"
   },
         {
-    "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
+    "Picture": "images/ywp.png",
     "Text": "Dating App",
     "TextColor": "red",
     "TitleFont": "Verdana",
-    "Explanation": "En side i Blazor med database, hvor man skal oprette bruge (brugt Authenticator), logge ind, oprette profil, filtrere andres profiler og finde et match. Like hinanden og skrive beskeder til sine matches.",
+    "Explanation": "Jeg lavede to færdige projekter af denne opgave for at blive bedre til det. Det er en side i Blazor med database, hvor man skal oprette bruge (brugt Authenticator), logge ind, oprette profil, filtrere andres profiler og finde et match. Like hinanden og skrive beskeder til sine matches.",
     "Place": "https://github.com/Kima4Tec/YWP",
     "Date": "September 2024"
   },
