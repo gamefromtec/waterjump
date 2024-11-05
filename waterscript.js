@@ -55,15 +55,38 @@ function showRegulator() {
 }
 
 function regulate(number) {
+    document.querySelector(".button-amount").style.backgroundColor = "white"
     presentPH = parseInt(document.querySelector("#phValue").innerHTML);
     console.log(presentPH) 
 presentPH = presentPH + number
-    showPH(presentPH)
+document.querySelector('[role="progressbar"]').style.display = "grid";
+showPH(presentPH)
 }
 function showPH (phNumber) {
     document.querySelector("#phValue").innerHTML = phNumber;
-    if(phNumber === 7)
-    {    document.querySelector('.congrats').style.display = "inline";
-    document.querySelector('.regulator').style.display = "none";}
 }
 
+function onProgressComplete() {
+  document.querySelector('[role="progressbar"]').style.display = "none";
+  if(parseInt(document.querySelector("#phValue").innerHTML) === 7)
+    {
+    document.querySelector(".button-amount").style.backgroundColor = "green"
+    setTimeout(delayedFunction, 2000);}
+
+    else{document.querySelector(".button-amount").style.backgroundColor = "red"}
+
+}
+document.addEventListener('DOMContentLoaded', function () {
+    const progressBar = document.querySelector('[role="progressbar"]');
+progressBar.addEventListener('animationend', function() {
+    if (progressBar.getAttribute('aria-valuenow') == 100) {
+
+      console.log("Progress bar reached 100%");
+      onProgressComplete()
+    }
+  });
+});
+function delayedFunction() {
+    document.querySelector('.congrats').style.display = "inline";
+    document.querySelector('.regulator').style.display = "none";
+}

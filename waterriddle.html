@@ -15,12 +15,12 @@
         <p>Normalt er vand neutralt og har en pH-værdi på 7 - 8,5. Lavt pH kan skyldes, at vandet er kalkfattigt.
 Lavt pH mellem 5 og 6,5 er ikke sundhedsfarligt, men surt vand øger korrosionen af ledningsnettet.
 Hårdhedsgrad total Calcium og magnesium bestemmer vandets totale hårdhed - et stort indhold giver hårdt vand; et lille giver blødt vand.<br><br>
-Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-værdi 7 på museet er i stykker, og det betyder at vandet ikke kan ledes væk. 
-            PH-værdien kan reguleres til 7 fra en lokal computer, men det kræver at I finder, den rigtige computer. 
+Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-værdi 7 på museet er i stykker, og det betyder at vandet ikke kan ledes væk.
+            PH-værdien kan reguleres fra en lokal computer, men det kræver at I finder, den rigtige computer.
             I dette eksempel leveres den binære ip-adresse.
             <br>Du kan finde ph-værdi-regulatoren her:
             <h2 class="binaryip">00001010.10000001.00100001.00101101</h2>
-            
+
             En IP-adresse er et tal i det binære talsystem, hvilket betyder, at den har 32 cifre (eller bits) bestående af en række 1'er og 0'er. Adressen er typisk grupperet som 4 8-bit tal, så hvert tal er 8 cifre, der enten er et 1 eller et 0.<br>
             Brug den binære convertor til at konvertere de binære tal til almindelige tal.
         <br><br><em>*Den binære ip-adresse kunne være på en Rrid, og når man scanner den får man den binære adresse vist på en skærm.</em></p>
@@ -31,7 +31,7 @@ Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-
         <h1>Konvertering af binære tal</h1>
         <input type="text" class="binary" id="bit1" autocomplete="off" maxlength="1"><input type="text"  class="binary" id="bit2" autocomplete="off" maxlength="1"><input type="text"  class="binary" id="bit3" autocomplete="off" maxlength="1"><input type="text"  class="binary" id="bit4" autocomplete="off" maxlength="1">
         <input type="text" class="binary" id="bit5" autocomplete="off" maxlength="1"><input type="text" class="binary" id="bit6" autocomplete="off" maxlength="1"><input type="text"  class="binary" id="bit7" autocomplete="off" maxlength="1"><input type="text"  class="binary" id="bit8" autocomplete="off" maxlength="1">
-        <span class="ipAddress">= 0</span> 
+        <span class="ipAddress">= 0</span>
     </div>
     <hr>
     <div class="ipAddress-container">
@@ -62,7 +62,9 @@ Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-
           <button class="button-amount" value="5" readonly id="phValue">5</button>
           <button type="button" onclick="regulate(1)">+</button>
         </div>
-      </div>
+            </div>
+            <h2>Checker pH-værdi</h2>
+            <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="--value: 100"></div>
 </div>
 <div class="congrats">
     <h1>Tillykke - Du har løst det - vandet løber igen og du kan gå til næste gåde.</h1>
