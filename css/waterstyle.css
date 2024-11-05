@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+font-size: 40pt;
+}
+
+input {
+    font-size: 30pt;
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+}
+
+#answer{
+    font-size: 30pt;
+}
+
+button#findCode {
+    font-size: 20pt;
+padding: 10px;
+margin: 30px;
+background-color: blue;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+display: inline-block;
+border: 0;
+}
+button#findCode:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+  }
