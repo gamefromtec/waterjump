@@ -47,9 +47,11 @@ if (IP1 === userIP1 && IP2 === userIP2 && IP3 === userIP3 && IP4 === userIP4)
 }
 
 function showRegulator() {
-    if(document.querySelector("#regulatorPW").innerHTML = "7QRS2")
+    if(document.querySelector("#regulatorPW").value === "7QRS2")
+    {
     document.querySelector('.input-regulator-code').style.display = "none";   
     document.querySelector('.regulator').style.display = "flex";
+    } else {document.querySelector('#the-code').innerHTML = "Koden er forkert!"}
 }
 
 function regulate(number) {
@@ -61,6 +63,7 @@ presentPH = presentPH + number
 function showPH (phNumber) {
     document.querySelector("#phValue").innerHTML = phNumber;
     if(phNumber === 7)
-        document.querySelector('.congrats').style.display = "inline";
+    {    document.querySelector('.congrats').style.display = "inline";
+    document.querySelector('.regulator').style.display = "none";}
 }
 

@@ -154,6 +154,10 @@ button#enter-regulatorPW:hover {
     transform: scale(1.05);
   }
 
+  #the-code{
+    font-size: xx-large;
+  }
+
 .congrats{
     display: none;
 }
