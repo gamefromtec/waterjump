@@ -44,10 +44,18 @@
     <div class="ipAddress-container">
         <h1>Indtast den rigtige IP-adresse</h1>
         <input type="text" id="firstIP" autocomplete="off"  maxlength="3"><input type="text" id="secondIP" autocomplete="off" maxlength="3"><input type="text" id="thirdIP" autocomplete="off" maxlength="3"><input type="text" id="fourthIP" autocomplete="off" maxlength="3">
-        <div class="button-container"><button id="findCode" onClick="getCode()">Få koden og lås computeren op</button></div>
+        <div class="button-container">
+            <button id="findCode" onClick="showComputerMap()">Find PC på kort over ministeriets computere</button>
+        </div>
         <div id="wrong-answer"></div>
-        <p><em>*Planen er at ved indtastning af ip-adresse, finder man den rigtige computer på et kort med en masse knapper, der indikerer computere. Klikker man på den rigtige computer, får man koden.
-            I dette eksempel vises koden her.</em>
+        <div id="the-pc-map">
+        <img src="images/pcMap.jpg" usemap="#computerMap" alt="Kort over ministeriets computere">
+        <map name="computerMap">
+            <area shape="rect" coords="330,494,430,567" alt="rigtig PC" onclick="getCode()" href="javascript:void(0)">
+        </map>
+    </div>
+        <p><em>*Planen er at ved indtastning af ip-adresse, finder man den rigtige computer på et kort med en masse knapper på en væg, der indikerer computere. Klikker man på den rigtige computer, får man koden.
+            I dette eksempel vises koden på et kort her.</em>
         </p>
     </div>
 </div>
@@ -56,7 +64,7 @@
     <br><br>
     <p>For at få adgang til computeren så du kan indstille den acceptable gennemsnitlige globale 
         temperaturstigning, så den passer til Paris-aftalen, skal du indtaste koden her:</p>
-    <input type="password" id="regulatorPW" autocomplete="off"  placeholder="Indtast kode">
+    <input type="password" id="regulatorPW" autocomplete="off" placeholder="Indtast kode">
     <br>
     <button type="button" id="enter-regulatorPW" onclick="showRegulator()">ENTER</button>
     <div id="the-code"></div>

@@ -32,18 +32,23 @@ bits.forEach(bit => {
 });
 
 function getCode (){
+    document.querySelector('.getRegulatorCode').style.display = "none";
+    document.querySelector('.input-regulator-code').style.display = "inline";
+    document.querySelector('#answer').innerHTML = "I fandt den rigtige PC og får koden til at låse computeren op. Koden er: 7QRS2"
+}
+
+function showComputerMap () {
     userIP1 = parseInt(document.querySelector('#firstIP').value)
     userIP2 = parseInt(document.querySelector('#secondIP').value)
     userIP3 = parseInt(document.querySelector('#thirdIP').value)
     userIP4 = parseInt(document.querySelector('#fourthIP').value)
 if (IP1 === userIP1 && IP2 === userIP2 && IP3 === userIP3 && IP4 === userIP4)
     {
-        document.querySelector('.getRegulatorCode').style.display = "none";
-        document.querySelector('.input-regulator-code').style.display = "inline";
-        document.querySelector('#answer').innerHTML = "I fandt den rigtige PC og får koden til at låse computeren op. Koden er: 7QRS2"
+        document.querySelector('#the-pc-map').style.display= "block"
     } else {
         document.querySelector('#wrong-answer').innerHTML = "IP-adressen er forkert!"
     }
+    
 }
 
 function showRegulator() {
@@ -80,8 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const progressBar = document.querySelector('[role="progressbar"]');
 progressBar.addEventListener('animationend', function() {
     if (progressBar.getAttribute('aria-valuenow') == 100) {
-
-      console.log("Progress bar reached 100%");
       onProgressComplete()
     }
   });

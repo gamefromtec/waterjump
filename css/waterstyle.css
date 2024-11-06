@@ -8,9 +8,14 @@ body{
     margin: 0 auto;
     text-align: center;
 }
+#the-pc-map{
+    display:none;
+}
 
-
-
+area {
+    cursor: default;
+    outline: none;
+}
 input {
     font-size: 20pt;
     padding: 10px;
