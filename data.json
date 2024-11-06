@@ -1,14 +1,5 @@
 [
   {
-    "Picture": "images/randomColor.png",
-    "Text": "Random Color",
-    "TextColor": "teal",
-    "TitleFont": "Verdana",
-    "Explanation": "En side, hvor man kan ændre baggrundsfarve ved tryk på knapper. En af knapperne giver en tilfældig farve.",
-    "Place": "https://github.com/Kima4Tec/RandomColor",
-    "Date": "September 2024"
-  },
-  {
     "Picture": "images/burgerFlex.png",
     "Text": "Javascript Burger App med FlexBox",
     "TextColor": "purple",
