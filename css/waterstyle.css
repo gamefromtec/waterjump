@@ -161,8 +161,15 @@ button#enter-regulatorPW:hover {
     font-size: xx-large;
   }
 
-.congrats{
+  .congrats {
     display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.congrats h1 {
+width: 60%;
 }
 
 @keyframes progress {

@@ -90,6 +90,6 @@ progressBar.addEventListener('animationend', function() {
   });
 });
 function delayedFunction() {
-    document.querySelector('.congrats').style.display = "inline";
+    document.querySelector('.congrats').style.display = "flex";
     document.querySelector('.regulator').style.display = "none";
 }
