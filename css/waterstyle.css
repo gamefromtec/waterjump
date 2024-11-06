@@ -4,23 +4,21 @@ body{
 }
 
 .ph-text{
-    width:50%;
+    width:70%;
     margin: 0 auto;
     text-align: center;
 }
 
-h1 {
-font-size: 40pt;
-}
+
 
 input {
-    font-size: 30pt;
+    font-size: 20pt;
     padding: 10px;
     margin: 10px;
-    width: 80px;
+    width: 50px;
 }
 input.binary {
-    font-size: 30pt;
+    font-size: 20pt;
     padding: 10px;
     margin: 10px;
     width: 20px;

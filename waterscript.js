@@ -42,7 +42,7 @@ if (IP1 === userIP1 && IP2 === userIP2 && IP3 === userIP3 && IP4 === userIP4)
         document.querySelector('.input-regulator-code').style.display = "inline";
         document.querySelector('#answer').innerHTML = "I fandt den rigtige PC og får koden. Koden er: 7QRS2"
     } else {
-        document.querySelector('#answer').innerHTML = "IP-adressen er forkert!"
+        document.querySelector('#wrong-answer').innerHTML = "IP-adressen er forkert!"
     }
 }
 
