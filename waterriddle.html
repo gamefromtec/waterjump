@@ -9,23 +9,30 @@
 </head>
 <body>
     <div class="getRegulatorCode">
-    <div class="infoPoster-container">
-        <h1>Vigtig information!!!</h1>
-        <div class="ph-text">
-        <p>Normalt er vand neutralt og har en pH-værdi på 7 - 8,5. Lavt pH kan skyldes, at vandet er kalkfattigt.
-Lavt pH mellem 5 og 6,5 er ikke sundhedsfarligt, men surt vand øger korrosionen af ledningsnettet.
-Hårdhedsgrad total Calcium og magnesium bestemmer vandets totale hårdhed - et stort indhold giver hårdt vand; et lille giver blødt vand.<br><br>
-Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-værdi 7 på museet er i stykker, og det betyder at vandet ikke kan ledes væk.
-            PH-værdien kan reguleres fra en lokal computer, men det kræver at I finder, den rigtige computer.
-            I dette eksempel leveres den binære ip-adresse.
-            <br>Du kan finde ph-værdi-regulatoren her:
-            <h2 class="binaryip">00001010.10000001.00100001.00101101</h2>
+        <div class="infoPoster-container">
+            <h1>Vigtig information!!!</h1>
+            <div class="ph-text">
+            <p>Klimaforandringerne forventes at føre til større nedbør i mange områder. Øget nedbør over længere perioder vil hovedsageligt føre til flodoversvømmelser, mens korte, intense skybrud kan forårsage nedbørsoversvømmelser, hvor ekstreme regnskyl forårsager oversvømmelser, uden at et vandløb flyder over.
+    <br><br>
+                Flodoversvømmelser er en almindelig naturkatastrofe i Europa, som sammen med storme har resulteret i dødsfald, ramt millioner af mennesker og forårsaget enorme økonomiske tab i de seneste tre årtier. Klimaforandringerne vil sandsynligvis øge hyppigheden af oversvømmelser i hele Europa i de kommende år.
+    <br><br>            
+                Kraftige regnskyl forventes at blive mere almindelige og intense på grund af højere temperaturer, og det betyder, at pludselige oversvømmelser vil forekomme oftere i hele Europa.
+                <br><em>Europakommissionen</em>
+    <br><br>
+    Med Paris-aftalen aftalte 196 lande at arbejde for at begrænse temperaturstigningen til 1,5 grader. Den grænse vil meget snart blive overskredet. 
+    En forbryder har hacket sig ind i en af computerne i Klima-, Energi- og Forsyningsministeriet, og har ændret i den nationale beslutning om en acceptabel gennemsnitlige global 
+    temperaturstigning til 2,5 °C. Herefter er computeren låst. Du skal låse computeren op og indstille den acceptable gennemsnitlige globale 
+    temperaturstigning, så den følger Paris-aftalen.
 
-            En IP-adresse er et tal i det binære talsystem, hvilket betyder, at den har 32 cifre (eller bits) bestående af en række 1'er og 0'er. Adressen er typisk grupperet som 4 8-bit tal, så hvert tal er 8 cifre, der enten er et 1 eller et 0.<br>
-            Brug den binære convertor til at konvertere de binære tal til almindelige tal.
-        <br><br><em>*Den binære ip-adresse kunne være på en Rrid, og når man scanner den får man den binære adresse vist på en skærm.</em></p>
-    </div>
-    </div>
+                <br><br>Du har fået en ip-adresse, men den er skrevet med binære-tal. Du skal konvertere adressen til decimaltal for at finde ip-adressen på den hackede computer.
+                <br>
+                <h2 class="binaryip">00001010.10000001.00100001.00101101</h2>
+    
+                En IP-adresse er et tal i det binære talsystem, hvilket betyder, at den har 32 cifre (eller bits) bestående af en række 1'er og 0'er.<br>
+                Brug den binære convertor til at konvertere de binære tal til almindelige tal.
+            <br><br><em>*Den binære ip-adresse kunne være på en Rrid, og når man scanner den får man den binære adresse vist på en skærm. I dette eksempel leveres den binære ip-adresse.</em></p>
+        </div>
+        </div>
     <hr>
     <div class="binaryConverter-container">
         <h1>Konvertering af binære tal</h1>
@@ -37,7 +44,7 @@ Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-
     <div class="ipAddress-container">
         <h1>Indtast den rigtige IP-adresse</h1>
         <input type="text" id="firstIP" autocomplete="off"  maxlength="3"><input type="text" id="secondIP" autocomplete="off" maxlength="3"><input type="text" id="thirdIP" autocomplete="off" maxlength="3"><input type="text" id="fourthIP" autocomplete="off" maxlength="3">
-        <div class="button-container"><button id="findCode" onClick="getCode()">Få kode til pH-value regulator</button></div>
+        <div class="button-container"><button id="findCode" onClick="getCode()">Få koden og lås computeren op</button></div>
         <div id="wrong-answer"></div>
         <p><em>*Planen er at ved indtastning af ip-adresse, finder man den rigtige computer på et kort med en masse knapper, der indikerer computere. Klikker man på den rigtige computer, får man koden.
             I dette eksempel vises koden her.</em>
@@ -47,27 +54,30 @@ Den automatiske ph-værdi-regulator, der normalt regulerer alt vandet til en pH-
 <div class="input-regulator-code">
     <div id="answer"></div>
     <br><br>
-    <p>For at få adgang til pH-værdi-regulatoren, skal du indtaste koden her:</p>
+    <p>For at få adgang til computeren så du kan indstille den acceptable gennemsnitlige globale 
+        temperaturstigning, så den passer til Paris-aftalen, skal du indtaste koden her:</p>
     <input type="password" id="regulatorPW" autocomplete="off"  placeholder="Indtast kode">
     <br>
     <button type="button" id="enter-regulatorPW" onclick="showRegulator()">ENTER</button>
     <div id="the-code"></div>
 </div>
 <div class="regulator">
-    <h1>pH-værdi-regulator</h1>
+    <h1>Acceptabel gennemsnitlige global 
+        temperaturstigning (AGGT)</h1>
     <div class="box">
-        <h3>ph-Værdi:</h1>
+        <h3>AGGT:</h1>
         <div class="button-container">
-          <button type="button" onclick="regulate(-1)">-</button>
-          <button class="button-amount" value="5" readonly id="phValue">5</button>
-          <button type="button" onclick="regulate(1)">+</button>
+          <button type="button" onclick="regulate(-0.5)">-</button>
+          <button class="button-amount" value="2.5" readonly id="phValue">2.5</button>
+          <button type="button" onclick="regulate(0.5)">+</button>
         </div>
             </div>
-            <h2>Checker pH-værdi</h2>
+            <h2>Checker temparaturstigning</h2>
             <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="--value: 100"></div>
 </div>
 <div class="congrats">
-    <h1>Tillykke - Du har løst det - vandet løber igen og du kan gå til næste gåde.</h1>
+    <h1>Tillykke - Du har løst det - Den acceptable gennemsnitlige globale 
+        temperaturstigning er indstillet, så den passer til Paris-aftalen.</h1>
 </div>
 </body>
 </html>

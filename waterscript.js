@@ -40,7 +40,7 @@ if (IP1 === userIP1 && IP2 === userIP2 && IP3 === userIP3 && IP4 === userIP4)
     {
         document.querySelector('.getRegulatorCode').style.display = "none";
         document.querySelector('.input-regulator-code').style.display = "inline";
-        document.querySelector('#answer').innerHTML = "I fandt den rigtige PC og får koden. Koden er: 7QRS2"
+        document.querySelector('#answer').innerHTML = "I fandt den rigtige PC og får koden til at låse computeren op. Koden er: 7QRS2"
     } else {
         document.querySelector('#wrong-answer').innerHTML = "IP-adressen er forkert!"
     }
@@ -56,7 +56,7 @@ function showRegulator() {
 
 function regulate(number) {
     document.querySelector(".button-amount").style.backgroundColor = "white"
-    presentPH = parseInt(document.querySelector("#phValue").innerHTML);
+    presentPH = parseFloat(document.querySelector("#phValue").innerHTML);
     console.log(presentPH) 
 presentPH = presentPH + number
 document.querySelector('[role="progressbar"]').style.display = "grid";
@@ -68,7 +68,7 @@ function showPH (phNumber) {
 
 function onProgressComplete() {
   document.querySelector('[role="progressbar"]').style.display = "none";
-  if(parseInt(document.querySelector("#phValue").innerHTML) === 7)
+  if(parseFloat(document.querySelector("#phValue").innerHTML) === 1.5)
     {
     document.querySelector(".button-amount").style.backgroundColor = "green"
     setTimeout(delayedFunction, 2000);}
