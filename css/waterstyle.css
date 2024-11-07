@@ -72,7 +72,7 @@ img#pcMap{
     font-size: 30pt;
     padding: 10px;
     margin: 10px;
-    width: 300px;
+    width: 250px;
 }
 
 .regulator{
@@ -119,6 +119,7 @@ button:active {
 }
 
 .button-amount {
+    padding: 2px;
     width: 50px;
     height: 50px;
     border-radius: 5%;
@@ -174,7 +175,7 @@ button#enter-regulatorPW:hover {
     text-align: center;
 }
 .congrats h1 {
-width: 60%;
+width: 70%;
 }
 
 @keyframes progress {
@@ -258,5 +259,7 @@ width: 60%;
     #wrong-answer{
         font-size: larger;
     }
-
+    .congrats h1 {
+        width: 90%;
+        }
   }

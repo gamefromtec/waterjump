@@ -98,22 +98,17 @@ function updateCoords() {
     var img = document.getElementById('pcMap');
     var area = document.querySelector('area');
 
-    // Oprindelige koordinater (fx for et rektangel)
     var originalCoords = "330,494,430,567";
-    var coords = originalCoords.split(',').map(Number); // Konverterer strengen til tal
+    var coords = originalCoords.split(',').map(Number);
 
-    // Tjek om skærmen er mobil (max-width: 600px)
-    var scaleFactor = (window.innerWidth <= 600) ? 1 / 3 : 1; // Skaleringsfaktor 1:3 på mobil, 1:1 på desktop
+    var scaleFactor = (window.innerWidth <= 600) ? 1 / 3 : 1;
 
-    // Skalerer koordinaterne baseret på skærmens størrelse
     var newCoords = coords.map(function(coord) {
-        return coord * scaleFactor; // Juster hver koordinat med faktoren
+        return coord * scaleFactor; 
     });
 
-    // Opdater koordinaterne for området
     area.setAttribute('coords', newCoords.join(','));
 }
 
-// Kald funktionen ved indlæsning af siden og ved ændring af vinduet
 window.addEventListener('load', updateCoords);
 window.addEventListener('resize', updateCoords);
