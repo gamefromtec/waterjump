@@ -50,7 +50,7 @@
         <div id="wrong-answer"></div>
         <div id="the-pc-map">
             <h2>Klik på den rigtige PC.</h2>
-        <img src="images/pcMap.jpg" usemap="#computerMap" alt="Kort over ministeriets computere">
+        <img src="images/pcMap.jpg" id="pcMap" usemap="#computerMap" alt="Kort over ministeriets computere">
         <map name="computerMap">
             <area shape="rect" coords="330,494,430,567" alt="rigtig PC" onclick="getCode()" href="javascript:void(0)">
         </map>
@@ -62,7 +62,6 @@
 </div>
 <div class="input-regulator-code">
     <div id="answer"></div>
-    <br><br>
     <p>For at få adgang til computeren så du kan indstille den acceptable gennemsnitlige globale 
         temperaturstigning, så den passer til Paris-aftalen, skal du indtaste koden her:</p>
     <input type="password" id="regulatorPW" autocomplete="off" placeholder="Indtast kode">
@@ -71,8 +70,8 @@
     <div id="the-code"></div>
 </div>
 <div class="regulator">
-    <h1>Acceptabel gennemsnitlige global 
-        temperaturstigning (AGGT)</h1>
+    <h1>Acceptabel Gennemsnitlige Global 
+        Temperaturstigning (AGGT)</h1>
     <div class="box">
         <h3>AGGT:</h1>
         <div class="button-container">
