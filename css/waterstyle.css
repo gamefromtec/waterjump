@@ -274,6 +274,6 @@ width: 70%;
             font-weight: bold;
             box-shadow: none;
             cursor: default;
-            text-align: center;
+            justify-content: center;
         }
   }
