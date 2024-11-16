@@ -17,7 +17,7 @@
     "Place": "https://github.com/Kima4Tec/LearningBurger",
     "Date": "September 2024"
   },
-                {
+  {
     "Picture": "images/burgerBar.png",
     "Text": "BurgerApp",
     "TextColor": "darkslategray",
@@ -26,7 +26,7 @@
     "Place": "https://github.com/Kima4Tec/BurgerBar",
     "Date": "September 2024"
   },
-        {
+  {
     "Picture": "images/ywp.png",
     "Text": "Dating App",
     "TextColor": "red",
@@ -35,7 +35,7 @@
     "Place": "https://github.com/Kima4Tec/YWP",
     "Date": "September 2024"
   },
-    {
+  {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
     "Text": "Hjemmeside for Whiskyklubben Albert",
     "TextColor": "orange",
@@ -49,11 +49,11 @@
     "Text": "Hjemmeside for Gnist",
     "TextColor": "purple",
     "TitleFont": "Consolas",
-    "Explanation": "En hjemmeside for Gnist, der er et projekt under ATOPOS. Atopos har særligt fokus på forbindelser mellem kunst & viden samt kultur & erhvervsliv. Siden er lavet i Visual Studio og anvender primært HTML og CSS.",
-    "Place": "https://gnisterne.com/",
+    "Explanation": "En hjemmeside for Gnist, der er et projekt under ATOPOS. Atopos har særligt fokus på forbindelser mellem kunst & viden samt kultur & erhvervsliv. Siden er lavet i Visual Studio Code og anvender primært HTML og CSS.",
+    "Place": "https://gnist.show/",
     "Date": "Juni/juli 2024"
   },
-    {
+  {
     "Picture": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg",
     "Text": "Hjemmeside i Blazor",
     "TextColor": "red",
