@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Events og samarbejde på tværs">
+    <meta name="keywords" content="profil, tec, erhverv, erhvervsuddannelse, uddannelse, lærling, virksomhed">
+    <meta name="author" content="Kim Massesson">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/coolstyle.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
+
+
+    <title>Projekter</title>
+
+</head>
+<body onload="init()">
+    <header>
+        <nav>
+        <ul>
+        <li><a href='index.html'> Home </a></li>
+        <li><a href='projects.htm'> Projekter </a></li>
+        <li><a href='about.htm'> Om </a></li>
+        </ul>
+        </nav>
+        </header>
+    <!-- <ul class="nav nav-pills  gap-2 p-1 small shadow-sm" id="pillNav2" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="home-tab1" data-bs-toggle="tab" type="button" role="tab"><a href="index.html" class="nav-link">Profil</a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="calendar-tab2" data-bs-toggle="tab" type="button" role="tab"><a href="projects.htm" class="nav-link active">Projekter</a></button>
+        </li>
+        <li class="ms-auto" role="presentation">
+            <button class="nav-link" id="me-auto" data-bs-toggle="tab" type="button" role="tab"><a href="about.htm" class="nav-link">About</a></button>
+        </li>
+    </ul> -->
+
+    <br />
+    <br />
+    <div class="container" id="calendarContainer"></div>
+
+    <script>
+        function loadJSON(callback) {
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', 'data.json', true);
+            xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                    callback(xobj.responseText);
+                }
+            };
+            xobj.send(null);
+        }
+
+        function init() {
+            loadJSON(function (response) {
+                // Parse JSON string into object
+                var jsonData = JSON.parse(response);
+
+                // Get the container element where we want to display the data
+                var calendarContainer = document.getElementById("calendarContainer");
+
+                // Loop through the JSON data and create HTML elements to display it where item is child
+                jsonData.forEach(function (item) {
+                    var card = document.createElement('div'); //creating a new div element and assigning it a CSS class of 'card', used for styling purpose
+                    card.classList.add('card');
+
+                    //First column
+                    var col1 = document.createElement('div');
+                    col1.classList.add('col-md-2');
+                    //The image
+                    var imageContainer = document.createElement('div');
+                    imageContainer.classList.add('image-container');
+                    var image = document.createElement('img');
+                    image.src = item.Picture;
+                    image.alt = item.Text;
+                    image.classList.add('img-fluid');
+                    imageContainer.appendChild(image);
+                    //imageContainer is a child to col1 and col1 is a child to card. Image is to be within the column 1 which is within the card, that holds two columns.
+                    col1.appendChild(imageContainer);
+                    card.appendChild(col1);
+
+                    //Second column
+                    var col2 = document.createElement('div');
+                    col2.classList.add('col-md-8');
+
+                    //Body for second column
+                    var cardBody = document.createElement('div');
+                    cardBody.classList.add('card-body');
+
+                    //Title text
+                    var title = document.createElement('h3');
+                    title.classList.add('card-title');
+                    title.style.color = item.TextColor;
+                    title.style.fontFamily = item.TitleFont;
+                    title.textContent = item.Text;
+                    cardBody.appendChild(title);
+
+                    //Explanation
+                    var explanation = document.createElement('p');
+                    explanation.classList.add('card-text');
+                    explanation.textContent = item.Explanation;
+                    cardBody.appendChild(explanation);
+
+                    //Place and date
+                    var details = document.createElement('div');
+                    details.classList.add('place-text');
+                    details.innerHTML = 'Placering: <a href="' + item.Place + '" target="_blank">' + item.Place + '</a><br />Dato: ' + item.Date;
+                    cardBody.appendChild(details);
+
+                    col2.appendChild(cardBody);
+                    card.appendChild(col2);
+
+                    calendarContainer.appendChild(card);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
