@@ -1,198 +1,127 @@
 <!DOCTYPE html>
-<html lang="da">
-<head>
-    <title>Kim Massesson</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Events og samarbejde på tværs">
-    <meta name="keywords" content="events, samarbejde, tec, erhverv, erhvervsuddannelse, uddannelse, lærling, ung">
-    <meta name="author" content="Kim Massesson">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/coolstyle.css" rel="stylesheet">
-    <link href="css/navbar.css" rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <nav>
-        <ul>
-        <li><a href='index.html'> Home </a></li>
-        <li><a href='projects.htm'> Projekter </a></li>
-        <li><a href='about.htm'> Om </a></li>
-        </ul>
-        </nav>
-        </header>
-
-    <!-- <ul class="nav nav-pills gap-2 p-1 small shadow-sm" id="pillNav2" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab1" data-bs-toggle="tab" type="button" role="tab"><a href="index.html" class="nav-link active">Profil</a></button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="projects-tab2" data-bs-toggle="tab" type="button" role="tab"><a href="projects.htm" class="nav-link">Projekter</a></button>
-        </li>
-        <li class="ms-auto" role="presentation">
-            <button class="nav-link" id="me-auto" data-bs-toggle="tab" type="button" role="tab"><a href="about.htm"class="nav-link">About</a></button>
-        </li>
-    </ul> -->
-
-    <div class="container" id="calendarContainer">
-    <div class="row">
-
-        <!-- first column with picture -->
-        <div class="column-left" style="margin-top: 30px;">
-            <img src="images/kim.jpg" class="profilepic">
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity Web Player | WaterJump</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
         </div>
-
-        <div class="column-right" style="margin-top: 30px;">
-
-            <h2>Mit navn er Kim Massesson</h2>
-
-            <h4>Denne side viser min profil under uddannelse som datatekniker med programmering som speciale.</h4>
-            <p>Under <a href="projects.htm">Projekter</a> kan du få et indblik i nogle af de ting, jeg har lavet. Jeg er hurtig til at lære nyt.</p>
-            <h2>&nbsp;</h2>
-            <h5>Jeg har hovedsageligt arbejdet i C# som programmeringssprog, men har også anvendt andre:</h5>
-            <table class="styled-table">
-                <tr>
-                    <td>C#</td>
-                    <td>MS SQL</td>
-                    <td>HTML5</td>
-                </tr>
-                <tr>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" style="width:60px"></td>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="width:60px"></td>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="width:60px"></td>
-                </tr>
-            </table>
-            <table class="styled-table">
-                <tr>
-                    <td>Bootstrap</td>
-                    <td>CSS</td>
-                    <td>JavaScript</td>
-                </tr>
-                <tr>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" style="width:60px"></td>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style="width:60px"></td>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="width:60px"></td>
-                </tr>
-            </table>
-
-            <h5>DevOps værkstøjer, som jeg har berørt og anvendt. Azure anvendte jeg på en tidligere arbejdsplads. Docker og Portainer brugte jeg på en Linux server, hvor jeg havde en hjemmeside i Blazor med Apache som webserver:</h5>
-            <table class="styled-table">
-              <tr>
-                <td>Azure</td>
-                <td>Git</td>
-                <td>Docker</td>
-              </tr>
-                <tr>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"  style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg"  style="width:60px"></td>
-                <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"  style="width:60px"></td>
-              </tr>
-              </table>
-
-            <h5>Jeg har importeret data fra API og importeret/exporteret i txt, excel og disse:</h5>
-            <table class="styled-table">
-                <tr>
-                    <td>MS SQL</td>
-                    <td>JSON</td>
-                    <td>XML</td>
-                </tr>
-                <tr>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" style="width:60px"></td>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" style="width:60px"></td>
-                    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" style="width:60px"></td>
-                </tr>
-            </table>
-
-            <h4>Frameworks og herunder softwarearkitektur som MVC og MVVM. Senest har jeg kigget på React og Angular, da det er noget, som vi kommer til at arbejde mere med senere i uddannelsesforløbet.</h4>
-            <table class="styled-table">
-              <tr>
-                <td>.NET</td>
-                <td>Blazor</td>
-
-              </tr>
-                <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-plain-wordmark.svg" style="width:60px"></td>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg" style="width:60px"></td>
-
-                      
-              </tr>
-              </table>
-            
-              <h4>Jeg har snuset til Angular og React, men har endnu ikke lavet selvstændige opgaver heri.</h4>
-            <table class="styled-table">
-              <tr>
-                <td>React</td>
-                <td>Angular</td>
-              </tr>
-                <tr>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style="width:60px"></td>
-            <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" style="width:60px"></td>
-              </tr>
-              </table>
-
-
-            <h2>🖇️PROFIL</h2>
-
-            <p>
-                Jeg har meget passion, når det handler
-                om IT og har altid været nysgerrig på de
-                muligheder, der ligger indenfor IT og data.
-                Der er noget magisk ved at strukturere og
-                automatisere processer, skabe løsninger.
-                Jeg er nysgerrig, løsningsorienteret og udforsker gerne nye
-                områder. Samtidig med at være
-                pligtopfyldende, kan jeg tænke
-                anderledes. Jeg er visuel og kreativ, men er
-                også et logisk tænkende individ, der holder
-                af tal, struktur og planlægning.
-                Jeg har arbejdet en del indenfor det
-                pædagogiske felt, og har stærke sociale
-                og relationsskabende kompetencer.
-            </p>
-
-            <h4>😄 STYRKER</h4>
-            <ul>
-                <li>Samarbejde og skabe relationer </li>
-                <li>Proaktiv og nysgerrig </li>
-                <li>Data og talforståelse </li>
-                <li>Formidling </li>
-                <li>Stærk logisk sans</li>
-                <li>Analytisk </li>
-            </ul>
-
-            <h4>🏡SPROG</h4>
-            <ul>
-                <li>Dansk </li>
-                <li>Engelsk </li>
-            </ul>
-            <span>- samt nogen forståelse for svensk, tysk, fransk og japansk</span>
-            <br><br>
-
-            <h4>🎨HOBBYER</h4>
-            <p>
-                Når jeg ikke sidder foran skærmen med en programmeringsopgave, slapper jeg af med skak, kunst, gåture, akvarier, god musik, en god bog, puslespil, min familie.
-                Senest har jeg installeret en Linux-server, hvor jeg har lagt Docker, MS SQL, portainer og en webpage på.
-            </p>
-            <a href="https://www.linkedin.com/in/kim-m-9b9416159/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" style="width:60px"></a>
-
-        </div>
-
-    </div>
-    <div class="footer">
-        Kim Massesson ◦ Datatekniker (programmering) <!--◦ <a href="mailto:">Email</a> ◦ <a href="tel:+45 xxxxxx">+45 xxxxxx</a>-->
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-logo-title-footer"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">WaterJump</div>
+      </div>
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const hamburgerMenu = document.querySelector('.hamburger-menu');
-            const navMenu = document.querySelector('.nav');
+      var canvas = document.querySelector("#unity-canvas");
 
-            hamburgerMenu.addEventListener('click', function () {
-                navMenu.style.display = (navMenu.style.display === 'block') ? 'none' : 'block';
-            });
-        });
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        var warningBanner = document.querySelector("#unity-warning");
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/waterjump-web-uden.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/waterjump-web-uden.data",
+        frameworkUrl: buildUrl + "/waterjump-web-uden.framework.js",
+        codeUrl: buildUrl + "/waterjump-web-uden.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "WaterJump",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        document.querySelector("#unity-container").className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+      }
+
+      document.querySelector("#unity-loading-bar").style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                document.querySelector("#unity-loading-bar").style.display = "none";
+                document.querySelector("#unity-fullscreen-button").onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
 
     </script>
-</body>
+  </body>
 </html>
